@@ -1,5 +1,5 @@
 {
-  "name": "either-ts",
+  "name": "@edrichhans/either-ts",
   "version": "1.0.0",
   "description": "Minimal Either implementation in TypeScript",
   "main": "dist/index.js",
