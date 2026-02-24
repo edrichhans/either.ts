@@ -1,0 +1,25 @@
+{
+  "name": "either-ts",
+  "version": "1.0.0",
+  "description": "Minimal Either implementation in TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "either",
+    "typescript",
+    "functional-programming",
+    "error-handling"
+  ],
+  "author": "edrichhans",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edrichhans/either-ts.git"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
