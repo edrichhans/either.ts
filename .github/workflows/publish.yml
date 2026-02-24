@@ -37,8 +37,6 @@ jobs:
           git config user.name "github-actions[bot]"
           npm version patch --no-git-tag-version
           npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Commit and push version bump
         run: |
