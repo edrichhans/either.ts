@@ -8,19 +8,19 @@ Remember -- *Right is right*
 ```ts
 import { Either } from 'minimal-either'
 
-function myEitherFunction(): Either<MyErrorType, Response> {
+function myEitherFunction(): Either<Error, Response> {
   try {
     const response = ...
     return Either.makeRight(response);
   } catch (error) {
-    return Either.makeLeft(MyErrorType(error.message));
+    return Either.makeLeft(new Error('My custom error message'));
   }
 }
 
-function parentOfEitherFunction(): Either<MyErrorType, null> {
+function parentOfEitherFunction(): Either<Error, null> {
     const responseEither = myEitherFunction();
 
-    if responseEither.isLeft() {
+    if (responseEither.isLeft()) {
         // Handle errors
         const errorObject = responseEither.getLeft();
 
