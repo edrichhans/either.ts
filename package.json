@@ -1,6 +1,6 @@
 {
   "name": "minimal-either",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal Either implementation in TypeScript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
