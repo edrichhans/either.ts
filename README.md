@@ -1,4 +1,4 @@
-# either.ts
+# minimal-either
 Minimal Either implementation in Typescript. To know more, see [Vavr Either](https://www.javadoc.io/doc/io.vavr/vavr/0.10.0/io/vavr/control/Either.html)
 
 Remember -- *Right is right*
@@ -6,7 +6,7 @@ Remember -- *Right is right*
 # Usage
 
 ```ts
-import { Either } from 'either.ts'
+import { Either } from 'minimal-either'
 
 function myEitherFunction(): Either<MyErrorType, Response> {
   try {
