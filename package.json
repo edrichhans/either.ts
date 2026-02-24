@@ -1,5 +1,5 @@
 {
-  "name": "@edrichhans/either-ts",
+  "name": "minimal-either",
   "version": "1.0.0",
   "description": "Minimal Either implementation in TypeScript",
   "main": "dist/index.js",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/edrichhans/either-ts.git"
+    "url": "https://github.com/edrichhans/minimal-either.git"
   },
   "devDependencies": {
     "typescript": "^5.0.0"
